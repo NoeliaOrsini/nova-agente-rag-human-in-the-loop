@@ -214,9 +214,12 @@ El PDF incorpora logo, mejor estructura y un timestamp con hora de Argentina, lo
 
 ### Flujo con RAG (información interna)
 ![RAG 1](assets/nova_rag_1.png)
-![RAG 2](assets/nova_rag_2.png)
 
 ### Human in the loop (validación previa)
+![RAG 2](assets/nova_rag_2.png)
+
+### Confirmación de descarga de informe
+
 ![HITL RAG](assets/nova_rag_hitl.png)
 
 ### Informe generado
@@ -228,8 +231,14 @@ El PDF incorpora logo, mejor estructura y un timestamp con hora de Argentina, lo
 ### Human in the loop (consulta web)
 ![HITL Web](assets/nova_web_hitl.png)
 
-### Manejo de errores
+**Error 503 (servidor saturado)**  
+El sistema detecta la caída temporal y sugiere reintentar.  
+
 ![Error 503](assets/nova_error_503.png)
+
+**Error por límite de cuota (429)**  
+El agente informa que se puede continuar al día siguiente.  
+
 ![Error cuota](assets/nova_error_cuota.png)
 
 ---
