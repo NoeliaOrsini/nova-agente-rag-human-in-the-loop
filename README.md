@@ -40,8 +40,9 @@ El sistema decide automáticamente si la consulta requiere información interna 
 
 ## ▶️ Ejecutar en Google Colab
 
-El notebook será incorporado en una próxima actualización.  
-Actualmente el proyecto se encuentra en etapa de mejora y validación.
+Podés ingresar directamente al cuaderno presionando el botón:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoeliaOrsini/nova-agente-rag-human-in-the-loop/blob/main/Nova_Agente_RRHH_RAG_HITL.ipynb)
 
 ---
 
@@ -61,11 +62,20 @@ Subir los PDFs que desees analizar.
 En el diseño del PDF podés adaptarlo al nombre de tu empresa y agregar tu logo donde lo indica el código.
 
 ### 4. Ejecutar
-El sistema:
 
-- Clasifica (RAG / Web)  
-- Recupera información  
-- Permite validación humana antes de generar el PDF  
+El sistema:
+* **Clasifica** (RAG / Web)  
+* **Recupera** información  
+* **Permite validación humana** antes de generar el PDF  
+
+---
+
+> ### 📝 Nota técnica: Entorno de ejecución y Widgets
+> Debido a una limitación conocida en la integración de los **ipywidgets** con el sistema de archivos de **Google Colab**, el proceso de descarga puede presentar el siguiente comportamiento:
+>
+> * **Interacción con el Navegador:** Al presionar el botón **"✅ APROBAR Y DESCARGAR"**, el entorno de Colab dispara una petición que el navegador puede interpretar como "descarga múltiple". Este es un comportamiento por defecto del entorno de ejecución y **no responde a un error en la lógica del código del agente**.
+> * **Gestión de Descargas:** Si el navegador solicita permisos para descargar múltiples archivos, podés **denegarlo** para recibir un solo archivo. En caso de que se abran dos ventanas de guardado consecutivas, simplemente guardá una y cancelá la otra.
+> * **Trazabilidad:** Cada informe se genera con un **timestamp** único (fecha y hora) para asegurar la integridad e identificación de las versiones descargadas.
 
 ---
 
