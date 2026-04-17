@@ -233,7 +233,9 @@ El PDF incorpora logo, mejor estructura y un timestamp con hora de Argentina, lo
 ![HITL RAG](assets/nova_rag_hitl.png)
 
 ### Informe generado
-![Informe](assets/nova_rag_informe.jpg)
+
+![Informe Generado](assets/nova_rag_informe_mejorado.jpg)
+![Informe Generado](assets/nova_rag_informe_mejorado_2.jpg)
 
 ### Consulta web (fuente externa)
 ![Web](assets/nova_web_1.png)
