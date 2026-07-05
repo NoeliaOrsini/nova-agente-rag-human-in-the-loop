@@ -271,3 +271,9 @@ La tecnología no es perfecta, pero la capacidad de analizar, ajustar y mejorar 
 Abogada · Programadora · Counselor  
 
 🔗 https://www.linkedin.com/in/noelia-orsini
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado con fines educativos y de investigación dentro del ecosistema LegalTech e Inteligencia Artificial Responsable.
+
+© 2026 Noelia Orsini. Todos los derechos reservados. Este repositorio se comparte exclusivamente con fines de evaluación académica y portfolio profesional. Queda autorizada su ejecución y prueba local con fines evaluativos, pero estrictamente prohibida su copia, modificación, distribución o bifurcación (fork) para uso propio o comercial sin autorización expresa de la autora.
